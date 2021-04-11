@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
     render html: "hello,world!"
   end
   
-  def hello(spain)
+  def hello_spain
     render html: "¡Hola, mundo!"
   end
   
